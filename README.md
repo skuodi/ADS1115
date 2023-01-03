@@ -1,7 +1,7 @@
 # ADS1115 C Library
 
 A C library for the ADS1115 4-channel 16-bit ADC by Texas Instruments.
-The repo contains the library files in the [ADS1115]() directory while the rest of the files are an STM32F401 example using I2C1 to read conversions and print the raw 16-bit value as an emulated serial device via USB
+The repo contains the library files in the [ADS1115](https://github.com/skuodi/ADS1115/tree/main/ADS1115/) directory while the rest of the files are an STM32F401 example using I2C1 to read conversions and print the raw 16-bit value as an emulated serial device via USB
 
 ## Usage
 
