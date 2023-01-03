@@ -117,7 +117,7 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
     x = ADS1115_Get_Single_Conversion(&adc1, 0);
-    sprintf(buf,"%d = %d mV\r\n",x,(x*4096)/32767);
+    sprintf(buf,"%d \r\n",x);
     CDC_Transmit_FS(buf, strlen(buf));
     memset(0,buf,sizeof(buf));
     HAL_Delay(2000);
